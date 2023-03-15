@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khafagy | Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="imgs/mIco.jpeg">  
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:  #ebdfdf;
+        }
+        div{
+            width: 90vw;
+            margin: 5vw auto;
+        }
+        img{
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+            transition: all 2s;
+        }
+        img:hover{
+            box-shadow: 10px 10px 30px #000000;
+            filter: grayscale(1);
+        }
+        @media print {
+            div{
+            width: 100vw;
+            margin: 0 0 0 0;
+        }        
+        img{
+            box-shadow: none
+            transition: all 2s;
+        }
+        img:hover{
+            box-shadow: none;
+            filter: grayscale(0);
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="CV">
+        <img src="imgs/CV.png" width="100%" alt="">
+    </div>
+</body>
+</html>
